@@ -34,18 +34,18 @@ body{
 .pg{
   position: absolute;
   top: -500px;
-  animation: fly 5500ms 3s linear infinite;
+  animation: fly 10000ms  linear infinite;
 }
 .remont{
   position: absolute;
   top: -1000px;
-  animation: fly2 6500ms 4s  linear infinite;
+  animation: fly2 10000ms   linear infinite;
 
 }
 .sspw{
   position: absolute;
   top: -1500px;
-  animation: fly3 7500ms 5s  linear infinite;
+  animation: fly3 10000ms linear infinite;
 
 }
 
@@ -54,32 +54,32 @@ body{
   position: absolute;
   right: 20%;
   top: -500px;
-  animation: fly 5500ms 4s  linear infinite;
+  animation: fly 10000ms  linear infinite;
 }
 .pmart{
   position: absolute;
   right: 20%;
   top: -1000px;
-  animation: fly2 6500ms 5s  linear infinite;
+  animation: fly2 10000ms   linear infinite;
 }
 .ds{
   position: absolute;
   right: 20%;
   top: -1500px;
-  animation: fly3 7500ms 6s  linear infinite;
+  animation: fly3 10000ms  linear infinite;
 }
 
 
 
 @keyframes fly {
-    from {top: -500px;}
-    to {top: 1500px;}
+    from {top: -200px;}
+    to {top: 1700px;}
 }
 @keyframes fly2 {
-    from {top: -1000px;}
-    to {top: 1500px;}
+    from {top: -700px;}
+    to {top: 1200px;}
 }
 @keyframes fly3 {
-    from {top: -1500px;}
-    to {top: 1500px;}
+    from {top: -1200px;}
+    to {top: 700px;}
 }
